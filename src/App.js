@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Cpm1 from './components/cpm1';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
         <Cpm1/>
+        <Login/>
       </header>
     </div>
   );
