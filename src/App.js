@@ -1,13 +1,14 @@
+import React from "react";
+import "./App.css";
+import Page500 from "./components/pages/Page500";
 
-import './App.css';
-import Cpm1 from './components/cpm1';
-import Login from './components/Login';
-import Index from './components/Todo';
 
 function App() {
   return (
     <div className="App">
-      <Index/>    
+     
+      <h1>hello</h1>
+     <Page500/>
     </div>
   );
 }
